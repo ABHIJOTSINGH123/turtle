@@ -1,0 +1,16 @@
+import turtle
+t=turtle.Turtle()
+t.pencolor ("red") 
+turtle.Screen().bgcolor("black")
+turtle.title("welcome to turtle window.")
+board=turtle.Turtle()
+t.hideturtle()
+for i in range(4):
+       t.forward(100)
+       t.left(90)
+       t.forward(50)
+       t.left(90)
+       t.forward(100)
+       t.left(90)
+       t.forward(50)
+       t.left(90)

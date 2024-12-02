@@ -3,7 +3,7 @@ t=turtle.Turtle()
 s=turtle.Screen()
 colors = ["red", "blue", "green", "yellow", "orange", "purple"]
 s.bgcolor("black")
-t.speed('fastest')
+t.speed('fast')
 t.hideturtle()
 while True:
     for x in range(200):
